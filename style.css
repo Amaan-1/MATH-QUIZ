@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+body {
+    font-family: 'Langar', cursive;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("87758.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-box {
+    width: 350px;
+    height: 300px;
+    top: 25%;
+    left: 15%;
+    position: absolute;
+    color: white;
+    background-color: white;
+    border-top: 20px solid rgb(255, 112, 117);
+    border-radius: 10px;
+}
+
+.login-box h1 {
+    float: left;
+    margin-left: 10%;
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    font-family: 'Langar', cursive;
+    color: rgba(0, 0, 0, 100)
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+}
+
+.textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+    color: rgb(92, 88, 88);
+    margin-left: 40px;
+}
+
+.textbox input {
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'Langar', cursive;
+    background-color: rgba(92, 88, 88, 0.2);
+    padding: 8px;
+    color: black;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.textbox input:focus {
+    box-shadow: 0 0 8px 0 rgb(255, 112, 117);
+}
+
+button {
+    outline: none;
+    font-family: 'Langar', cursive;
+    border: 2px solid rgb(255, 112, 117);
+    border: none;
+    margin-top: 15px;
+    border-radius: 4px;
+    margin-left: 37.5px;
+    outline: none;
+    float: none;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(255, 112, 117);
+    transition: 0.25s linear;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 25%;
+    align-self: center;
+    margin-left: 40%;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 112, 117);
+    transform: scale(0.9);
+    border: 2px solid rgb(255, 112, 117);
+}
+
+.login-box-2 {
+    width: 350px;
+    height: 300px;
+    top: 25%;
+    left: 60%;
+    position: absolute;
+    color: white;
+    background-color: white;
+    border-top: 20px solid rgb(255, 112, 117);
+    border-radius: 10px;
+}
+
+.login-box-2 h1 {
+    float: left;
+    margin-left: 10%;
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    font-family: 'Langar', cursive;
+    color: rgba(0, 0, 0, 100)
+}
+
+.textbox-2 {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+}
+
+.textbox-2 i {
+    width: 26px;
+    float: left;
+    text-align: center;
+    color: rgb(92, 88, 88);
+    margin-left: 40px;
+}
+
+.textbox-2 input {
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'Langar', cursive;
+    background-color: rgba(92, 88, 88, 0.2);
+    padding: 8px;
+    color: black;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.textbox-2 input:focus {
+    box-shadow: 0 0 8px 0 rgb(255, 112, 117);
+}

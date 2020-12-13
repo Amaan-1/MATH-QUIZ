@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MATHS QUIZ</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <script src="game.js"></script>
+</head>
+
+<body>
+    <h4 id="player_1"></h4>
+    <span id="player_1_score"></span>
+    <br>
+    <h4 id="player_2"></h4>
+    <span id="player_2_score"></span>
+    <div class="container">
+        <center>
+            <h2 style="color: white;">MATH QUIZ</h2>
+            <h3 id="question"></h3>
+            <h3 id="answer"></h3>
+            <div id="output" class="col-lg-6"></div>
+            <br>
+            <label style="font-size: 15px; color: white;">YOUR QUESTION:<b style="color:rgb(255, 112, 117); font-size: 20px;">&nbsp;&nbsp;Put any mathematical question you want.</b></label>
+            <br>
+            <br>
+            <input type="text" class="form-control" placeholder="Type your Question" id="ques/ans" style=" font-size: 15px;">
+            <button onclick="send_ques()" style="margin-left: 5%; margin-top: 5%;">Send Ques.</button>
+        </center>
+    </div>
+</body>
+
+</html>
