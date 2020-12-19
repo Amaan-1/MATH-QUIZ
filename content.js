@@ -4,8 +4,8 @@ let name_two = localStorage.getItem("player-2");
 let score_one = 0;
 let score_two = 0;
 
-document.getElementById("player_1").innerHTML = player1_name + ":";
-document.getElementById("player_2").innerHTML = player2_name + ":";
+document.getElementById("player_1").innerHTML = name_one + ":";
+document.getElementById("player_2").innerHTML = name_two + ":";
 document.getElementById("question").innerHTML = "ASK Question" + name_one;
 document.getElementById("answer").innerHTML = "&nbsp;&nbsp; GIVE Answer" + name_two;
 
