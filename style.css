@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 body {
     font-family: 'Langar', cursive;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://wallpapercave.com/wp/9PhuBaz.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("87758.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -55,7 +55,7 @@ body {
     padding: 8px;
     color: black;
     box-sizing: border-box;
-    transition: .3s;
+    transition: 0.9s ease;
 }
 
 .textbox input:focus {
@@ -147,5 +147,24 @@ button:hover {
 }
 
 .textbox-2 input:focus {
+    box-shadow: 0 0 8px 0 rgb(255, 112, 117);
+}
+
+input {
+    font-size: 18px;
+    outline: none;
+    border: none;
+    width: 50%;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'Langar', cursive;
+    background-color: rgba(92, 88, 88, 0.2);
+    padding: 8px;
+    color: white;
+    box-sizing: border-box;
+    transition: 0.9s ease;
+}
+
+input:focus {
     box-shadow: 0 0 8px 0 rgb(255, 112, 117);
 }

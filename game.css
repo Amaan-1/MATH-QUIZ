@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 body {
     font-family: 'Langar', cursive;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://wallpapercave.com/wp/9PhuBaz.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("87758.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.login-box-3 {
+    width: 350px;
+    height: auto;
+    color: white;
+    background-color: white;
+    border-top: 20px solid rgb(255, 112, 117);
+    border-radius: 10px;
 }
 
 .container button {
@@ -14,7 +23,6 @@ body {
     border: none;
     margin-top: 15px;
     border-radius: 4px;
-    margin-left: 37.5px;
     outline: none;
     float: none;
     padding: 8px;
@@ -30,7 +38,6 @@ body {
     border-radius: 10px;
     width: 25%;
     align-self: center;
-    margin-left: 40%;
 }
 
 .container button:hover {
@@ -59,7 +66,26 @@ body {
     padding: 8px;
     color: white;
     box-sizing: border-box;
-    transition: .3s;
+    transition: 0.9s ease;
+}
+
+input {
+    font-size: 18px;
+    outline: none;
+    border: none;
+    width: 50%;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'Langar', cursive;
+    background-color: rgba(92, 88, 88, 0.2);
+    padding: 8px;
+    color: white;
+    box-sizing: border-box;
+    transition: 0.9s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 8px 0 rgb(255, 112, 117);
 }
 
 .container input:focus {
