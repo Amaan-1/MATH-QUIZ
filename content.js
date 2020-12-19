@@ -4,11 +4,6 @@ let name_two = localStorage.getItem("player-2");
 let score_one = 0;
 let score_two = 0;
 
-document.getElementById("player_1").innerHTML = name_one + ":";
-document.getElementById("player_2").innerHTML = name_two + ":";
-document.getElementById("question").innerHTML = "ASK Question" + name_one;
-document.getElementById("answer").innerHTML = "&nbsp;&nbsp; GIVE Answer" + name_two;
-
 function question_post() {
     let one_number = document.getElementById("1_ques").value;
     let two_number = document.getElementById("2_ques").value;
@@ -23,3 +18,9 @@ function question_post() {
     document.getElementById("1_ques").value = "";
     document.getElementById("2_ques").value = "";
 }
+
+
+document.getElementById("player_1").innerHTML = name_one + ":";
+document.getElementById("player_2").innerHTML = name_two + ":";
+document.getElementById("question").innerHTML = "ASK Question" + name_one;
+document.getElementById("answer").innerHTML = "&nbsp;&nbsp; GIVE Answer" + name_two;
